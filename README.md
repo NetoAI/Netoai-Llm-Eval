@@ -31,23 +31,16 @@ pip install -r requirements.txt
 
 ## Setup
 
-1. **Clone the repository**:
-
-   ```bash
-   git clone <repository-url>
-   cd llm-benchmarking-framework
-   ```
-
-2. **Install dependencies**:
+1. **Install dependencies**:
 
    ```bash
    pip install torch transformers datasets langchain accelerate huggingface-hub
    ```
 
-3. **Set your Hugging Face token**:
+2. **Set your Hugging Face token**:
    Replace `"hf_..."` in the notebook with your token
 
-4. **Update the configuration dictionary** inside `llm_benchmarking.ipynb` to match your model and dataset
+3. **Update the configuration dictionary** inside `llm_benchmarking.ipynb` to match your model and dataset
 
 ## Dataset Format
 
