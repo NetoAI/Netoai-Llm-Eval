@@ -1,0 +1,6 @@
+torch
+transformers
+datasets
+langchain
+accelerate
+huggingface-hub
