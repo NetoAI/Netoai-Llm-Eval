@@ -20,7 +20,7 @@ A modular Python framework for evaluating Large Language Models (LLMs) using ano
 ### Install Dependencies
 
 ```bash
-pip install torch transformers datasets langchain
+   pip install torch transformers datasets langchain accelerate huggingface-hub
 ```
 
 Or install from a requirements file:
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 2. **Install dependencies**:
 
    ```bash
-   pip install torch transformers datasets langchain
+   pip install torch transformers datasets langchain accelerate huggingface-hub
    ```
 
 3. **Set your Hugging Face token**:
